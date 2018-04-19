@@ -10,6 +10,12 @@ RSpec.describe Api::V1::SessionController, type: :request do
 
       expect(response).to have_http_status(200)
     end
+
+    it "should return status 402 with wrong credentials" do
+      post '/api/v1/session/login', params: { email: user.email, password: 'HACKER' }
+
+      expect(response).to have_http_status(402)
+    end
   end
 
 end
