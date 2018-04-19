@@ -67,6 +67,7 @@ class InitialSchema < ActiveRecord::Migration[5.2]
     create_table :users do |t|
       t.string :full_name
       t.string :password_digest
+      t.string :email
       t.string :avatar
       t.boolean :enabled
       t.integer :role

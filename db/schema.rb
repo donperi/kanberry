@@ -79,6 +79,7 @@ ActiveRecord::Schema.define(version: 2018_04_16_165448) do
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "full_name"
     t.string "password_digest"
+    t.string "email"
     t.string "avatar"
     t.boolean "enabled"
     t.integer "role"
