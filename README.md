@@ -1,24 +1,7 @@
-# README
+# Kanberry
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://travis-ci.org/donperi/kanberry.svg?branch=master)](https://travis-ci.org/donperi/kanberry)
 
-Things you may want to cover:
+Open Source Project Management Solution being build with Rails and React.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+More details soon...
